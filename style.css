@@ -302,7 +302,7 @@ color: #17c0eb
   justify-content: space-between;
   width: 100%;
 }
-.btns button{
+.btns a{
   width: 100%;
   padding: 9px 0px;
   outline: none;
@@ -314,6 +314,7 @@ color: #17c0eb
   transition: all 0.3s linear;
   background: var(--green);
   color: #fff;
+  text-align: center;
 }
  /* .btns button:first-child{
   background: none;
@@ -324,13 +325,19 @@ color: #17c0eb
   margin-left: 5px;
 }
   */
-.btns button:hover{
+
+.btns a:hover{
     background: white;
     color: black;
 }
+
+
 /* .btns button:hover{
   color: #fff;
 }  */
+
+
+
 @media (max-width:1045px){
   .container .box{
     width: calc(50% - 10px);
