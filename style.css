@@ -286,7 +286,7 @@ color: #17c0eb
   text-align: justify;
   margin-top: 8px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
 }
 .box .name_job{
   margin: 10px 0 3px 0;
@@ -447,6 +447,7 @@ animation:float 3s linear infinite;
   border: 1px solid white;
   padding: 1.5rem 4rem;
   font-size: 15px;
+  font-weight: bold;
   /* background-color: #ffa502; */
 }
 .our-blog{
@@ -567,9 +568,11 @@ animation:float 3s linear infinite;
 }
 
 .review .box-container .box p{
-  font-size: 1.5rem;
-  color: var(--about-sec);
+  /* font-size: 1.5rem; */
+  /* color: var(--about-sec); */
   padding:1rem 0;
+  font-family: 'Nunito', sans-serif;
+  
 }
 .heading{
   color: var(--green);
