@@ -420,9 +420,10 @@ animation:float 3s linear infinite;
 }
 
 .fruit-backgorund{
-  background-image: url(images/background\ percentage.png);
+  background-image: url(images/mangoside.webp);
   background-size: cover;
   background-repeat: no-repeat;
+  /* height: 40rem; */
   
 }
 .main-fuit{
@@ -433,17 +434,20 @@ animation:float 3s linear infinite;
   font-size: 22px;
   font-weight: lighter;
   margin-bottom: 1rem;
+  
 }
 .fruit-large-content{
   font-size: 36px;
   color: white;
   margin-bottom: 2rem;
 }
+
 .main-fuit a{
-  
   color: white;
   border: 1px solid white;
   padding: 1.5rem 4rem;
+  font-size: 15px;
+  /* background-color: #ffa502; */
 }
 .our-blog{
   padding: 2rem 7%;
