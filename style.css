@@ -419,6 +419,7 @@ animation:float 3s linear infinite;
 }
 }
 
+
 .fruit-backgorund{
   background-image: url(images/mangoside.webp);
   background-size: cover;
@@ -708,8 +709,12 @@ ul{
   html{
     font-size: 55%;
   }
+  .logo{
+    width: 20px;
+  }
   #menu-bars{
     display: initial;
+    font-size: 20px;
   }
   .header{
     width: 100%;
@@ -790,6 +795,11 @@ ul{
   .fruit-content{
     padding-top: 3rem;
   }
+
+  .menu-button{
+    padding: 1rem 1.3rem;
+  }
+
 }
 
 

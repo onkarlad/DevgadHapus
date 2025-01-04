@@ -1,14 +1,18 @@
 let menu = document.querySelector('#menu-bars');
 let navbar = document.querySelector('.navbar');
 let header = document.querySelector('#header');
+let anchors = document.querySelectorAll('a.nav_items');
 
 menu.onclick = () =>{
-
-  menu.classList.toggle('fa-times');
+//   menu.classList.toggle('fa-times');
   navbar.classList.toggle('active');
-
 }
 
+anchors.forEach(anchor => {
+    anchor.addEventListener('click', function() {
+      navbar.classList.toggle('active');
+    });
+  });
 
 const first_order = document.getElementById('one_dozen');
 
