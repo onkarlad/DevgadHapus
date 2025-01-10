@@ -191,7 +191,7 @@ section {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 ::selection {
-  background: #8e44ad;
+  background: var(--green);
   color: #fff;
 }
 .container {
@@ -680,4 +680,9 @@ ul {
 	margin-top:16px;
     margin-left: 18px;
 
+}
+
+#order_now_btn:hover{
+    background-color: #f7f7f7;
+    color: black;
 }
